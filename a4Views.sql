@@ -1,8 +1,7 @@
 /*
-Group:
-Amar Gupta 500987921
-Sudipto Bose 501015177
-Cedric Li-Chay-Chung 501024081
+Amar Gupta
+Sudipto Bose
+Cedric Li-Chay-Chung
 */
 
 drop view SALE_INFO;
