@@ -88,7 +88,7 @@ $tables = array("SUPPLIER", "STORE", "SHIPMENT", "SALE", "PRODUCT_IN_SALE", "PRO
 
 require './clothingRetailFunctions.php';
 
-$conn = oci_connect('sbose', '03305177', '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(Host=oracle.scs.ryerson.ca)(Port=1521))(CONNECT_DATA=(SID=orcl)))');
+$conn = oci_connect('', '', '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(Host=oracle.scs.ryerson.ca)(Port=1521))(CONNECT_DATA=(SID=orcl)))');
 if (!$conn) {
 $m = oci_error();
 echo $m['message'];
