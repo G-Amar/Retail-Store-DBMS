@@ -1,0 +1,11 @@
+drop table SUPPLIER cascade constraints;
+drop table STORE cascade constraints;
+drop table SHIPMENT cascade constraints;
+drop table SALE cascade constraints;
+drop table PRODUCT_IN_SALE cascade constraints;
+drop table PRODUCT cascade constraints;
+drop table MANAGER cascade constraints;
+drop table EMPLOYEE cascade constraints;
+drop table DEPARTMENT cascade constraints;
+drop table CUSTOMER cascade constraints;
+drop table CASHIER cascade constraints;
